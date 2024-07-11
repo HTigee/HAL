@@ -14,7 +14,7 @@ Hybrid Modeling is the integration of Agent-Based modeling and partial different
 Each component (grids, agents) of HAL can function independently. This permits any combination of components to be used in a single model, with the use of spatial queries to combine them.
 
 ### Extensibility
-HAL was designed to allow models and components to be extended and modified. Grids and agents from published models can be used as as a scaffold on which to do additional studies while keeping the prior work and their additions separated.
+HAL was designed to allow models and components to be extended and modified. Grids and agents from published models can be used as a scaffold on which to do additional studies while keeping the prior work and their additions separated.
 
 ### Simplicity
 Components are simple and generic making them applicable to a wide variety of modeling problems outside of mathematical oncology. A defensive programming paradigm was used to generate useful error messages when a component is used incorrectly. The purpose of this manual is to explain the modeling paradigm behind HAL, where the clear, consistent interface and methodology allows for ease of learning and implementation.

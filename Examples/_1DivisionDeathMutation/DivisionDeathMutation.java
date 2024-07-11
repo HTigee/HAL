@@ -41,9 +41,9 @@ class CellEx extends AgentSQ2Dunstackable<DivisionDeathMutation>{
 
 public class DivisionDeathMutation extends AgentGrid2D<CellEx> {
     final static int BLACK= Util.RGB(0,0,0);
-    double DIV_PROB =0.2;
+    double DIV_PROB =.2;
     double MUT_PROB =0.003;
-    double DIE_PROB =0.1;
+    double DIE_PROB =.1;
     double MUT_ADVANTAGE =1.08;
     int MAX_MUTATIONS =19;
     int[]mutCounts=new int[MAX_MUTATIONS+1];//+1 to count for un-mutated type
